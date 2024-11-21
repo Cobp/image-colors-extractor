@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --foreground-color: #19191c;
+  --background-color: #e8e8e8;
+  --optional-color: #363636;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--foreground-color);
+  font-family: 'Onest Variable', sans-serif;
+}
+
+@layer utilities {
+
+}
