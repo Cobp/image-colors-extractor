@@ -15,11 +15,12 @@
 }
 
 body {
-  background-color: var(--background-color);
   color: var(--foreground-color);
   font-family: 'Onest Variable', sans-serif;
 }
 
 @layer utilities {
-
+  .bg-primary{
+    background-color: var(--background-color);
+  }
 }

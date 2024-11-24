@@ -184,8 +184,8 @@ export const ColorProvider = ({ children }: Readonly<{ children: React.ReactNode
     };
 
     return (
-        <ColorContext.Provider value= {{
-        colors,
+        <ColorContext.Provider value={{
+            colors,
             setColors,
             file,
             setFile,
@@ -197,8 +197,8 @@ export const ColorProvider = ({ children }: Readonly<{ children: React.ReactNode
             updateColor,
             clearColorsAndFile,
         }
-}>
-    { children }
-    </ColorContext.Provider>
+        }>
+            {children}
+        </ColorContext.Provider>
     );
 };

@@ -3,13 +3,9 @@ import { motion } from "motion/react"
 
 const HeroPage = () => {
   return (
-    <motion.div
-      initial={{ y: 500 }}
-      animate={{ y: 0 }}
-      className="w-full h-full p-4">
-        <h1 className="font-bold text-9xl text-center">Image Colors Extractor</h1>
-
-    </motion.div>
+    <section className="relative w-full h-full flex gap-4 p-2 pl-0">
+      <div className="w-full h-full rounded-xl bg-white border border-neutral-300"></div>
+    </section>
   )
 }
 
